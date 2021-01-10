@@ -3,6 +3,8 @@ const jwt = require('jsonwebtoken');
 const fs = require('fs')
 const app = express();
 
+var port = process.env.PORT || 3000;
+
 app.use(express.json())
 
 //get the user data from json file
@@ -112,4 +114,4 @@ app.delete('/post/:username', (req, res) => {
   res.send({success: true, msg: 'User removed successfully'})
 })
 
-app.listen(3000, () => console.log('Server started on port 3000'));
+app.listen(port, () => console.log('Server started on port 3000'));
