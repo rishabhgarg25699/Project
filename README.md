@@ -57,6 +57,19 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
 ```sh
 1. http://localhost:3000/post/:ID (Delete Request) - This api is used to delete the data from JSON file which has ID = ID                                                                  
 ```
+
+## Extra API'S
+
+**1. Enable filtering at entity level :**
+```sh
+http://localhost:3000/post?title=title1&author=CIQ (GET Request) - This api is used to search in the JSON Database on the basis of title and author
+```
+
+**1. Enable sorting at entity level :**
+```sh
+http://localhost:3000/post?_sort=views&_order=asc (GET Request) - This api is used to sort JSON Database according to the _views ascending or descending 
+```
+
 ## Contact With Me :busts_in_silhouette:
 
 - Phone +91 7302383783
