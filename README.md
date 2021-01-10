@@ -23,9 +23,7 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
 5. The store.json file should support multiple entity types.
 ```
 
-## Different API'S :woman_teacher:
-
-### Please see the video for more Clarification
+## Different API'S :woman_teacher: (Please see the video for more Clarification)
 
 **1. GET REQUEST (Video - https://www.youtube.com/watch?v=_YHkThd-XDI)** 
 ```sh
