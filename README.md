@@ -25,7 +25,7 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
 
 ## Different API'S :woman_teacher:
 
-**GET REQUEST**
+**1. GET REQUEST**
 ```sh
 1. http://localhost:3000/post (GET Request) - This api is used to show the data that is present in JSON file
 
@@ -41,19 +41,19 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
                                               This api is used to sort the json data according to the _sort parameter descending
 ```                  
 
-**Post Request**
+**2. Post Request**
 ```sh
 1. http://localhost:3000/post (POST Request) - This api is used to insert data in the JSON File. We have to give input in postman as
                                                BODY -> RAW -> JSON -> DATA 
 ```
 
-**Patch Request**
+**3. Patch Request**
 ```sh
 1. http://localhost:3000/post/:ID (PATCH Request) - This api is used to make changes in JSON data. We have to insert ID and change data in 
                                                BODY -> RAW -> JSON -> DATA
 ```
 
-**Delete Request**                   
+**4. Delete Request**                   
 ```sh
 1. http://localhost:3000/post/:ID (Delete Request) - This api is used to delete the data from JSON file which has ID = ID                                                                  
 ```
