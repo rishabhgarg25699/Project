@@ -3,6 +3,8 @@ This is a REST based JSON mock server to easily add, update, delete and access d
 
 Tools/Technologies: JavaScript, NodeJS, ExpressJS
 
+#Site is LIVE At : http://13.235.83.227:9090
+
 ## Steps to Run Locally :scroll:
 ```sh
 1. Clone this repository
@@ -28,34 +30,40 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
 **1. GET REQUEST (Video - https://www.youtube.com/watch?v=_YHkThd-XDI)** 
 ```sh
 1. http://localhost:3000/post (GET Request) - This api is used to show the data that is present in JSON file
+   http://13.235.83.227:9090/post 
 
 2. http://localhost:3000/post/:ID  (GET Request) - This api is used to show the particular json data which has id = ID
+   http://13.235.83.227:9090/post/:ID
 
-3. http://localhost:3000/?title=title1&author=CIQ (GET Request) - 
+3. http://localhost:3000?title=title1&author=CIQ (GET Request) -
+   http://13.235.83.227:9090?title=title1&author=CIQ
                                               This api is used to filter the json data which has title = title1 and author = CIQ
 
-4. http://localhost:3000/?_sort=views&_order=asc (GET Request) - 
+4. http://localhost:3000?_sort=views&_order=asc (GET Request) -
+   http://13.235.83.227:9090?_sort=views&_order=asc
                                               This api is used to sort the json data according to the _sort parameter ascending
 
-5. http://localhost:3000/?_sort=views&_order=des (GET Request) - 
+5. http://localhost:3000?_sort=views&_order=des (GET Request) -
+   http://13.235.83.227:9090?_sort=views&_order=des
                                               This api is used to sort the json data according to the _sort parameter descending
 ```                  
 
 **2. Post Request (Video - https://www.youtube.com/watch?v=713hDtMIZ5A)** 
 ```sh
 1. http://localhost:3000/post (POST Request) - This api is used to insert data in the JSON File. We have to give input in postman as
-                                               BODY -> RAW -> JSON -> DATA 
+   http://13.235.83.227:9090/post              BODY -> RAW -> JSON -> DATA 
 ```
 
 **3. Patch Request (Video - https://www.youtube.com/watch?v=bCZ_QGZDC7E)** 
 ```sh
 1. http://localhost:3000/post/:ID (PATCH Request) - This api is used to make changes in JSON data. We have to insert ID and change data in 
-                                               BODY -> RAW -> JSON -> DATA
+   http://13.235.83.227:9090/post/:ID               BODY -> RAW -> JSON -> DATA
 ```
 
 **4. Delete Request (Video - https://www.youtube.com/watch?v=bCZ_QGZDC7E)**                   
 ```sh
-1. http://localhost:3000/post/:ID (Delete Request) - This api is used to delete the data from JSON file which has ID = ID                                                                  
+1. http://localhost:3000/post/:ID (Delete Request) - This api is used to delete the data from JSON file which has ID = ID                                                            http://13.235.83.227:9090/post/:ID         
+
 ```
 
 ## Extra API'S
