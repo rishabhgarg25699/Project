@@ -23,7 +23,7 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
 5. The store.json file should support multiple entity types.
 ```
 
-## Different API'S
+## Different API'S :woman_teacher:
 ```sh
 ** GET REQUEST
 1. http://localhost:3000/post (GET Request) - This api is used to show the data that is present in JSON file
