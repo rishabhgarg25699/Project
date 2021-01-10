@@ -29,7 +29,7 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
 ```sh
 1. http://localhost:3000/post (GET Request) - This api is used to show the data that is present in JSON file
 
-2. http://localhost:3000/:ID  (GET Request) - This api is used to show the particular json data which has id = ID
+2. http://localhost:3000/post/:ID  (GET Request) - This api is used to show the particular json data which has id = ID
 
 3. http://localhost:3000/?title=title1&author=CIQ (GET Request) - 
                                               This api is used to filter the json data which has title = title1 and author = CIQ
