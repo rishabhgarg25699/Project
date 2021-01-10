@@ -12,7 +12,7 @@ Tools/Technologies: JavaScript, NodeJS, ExpressJS
 5. Open the browser with this link http://localhost:3000/post
 ```
 
-## Full Problem Statement
+## Full Problem Statement :speaking_head:
 ```sh
 Build a REST based JSON mock server to easily add, update, delete and access data from a JSON file.
 
@@ -49,4 +49,10 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
                    
 ** Delete Request                   
 1. http://localhost:3000/post/:ID (Delete Request) - This api is used to delete the data from JSON file which has ID = ID                                                                    
+```
+## Contact With Me :busts_in_silhouette:
+
+- Phone +91 7302383783
+- Telegram - https://t.me/Rishabhhello
+- Gitter - https://gitter.im/rishabhgarg25699
 ```
