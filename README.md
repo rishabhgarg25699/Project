@@ -3,7 +3,7 @@ This is a REST based JSON mock server to easily add, update, delete and access d
 
 Tools/Technologies: JavaScript, NodeJS, ExpressJS
 
-# Site is LIVE At : http://13.235.83.227:9090
+# Site is LIVE At:  http://13.235.83.227:9090
 
 ## Steps to Run Locally :scroll:
 ```sh
