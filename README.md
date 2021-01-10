@@ -37,15 +37,15 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
    http://13.235.83.227:9090/post/:ID
 
 3. http://localhost:3000?title=title1&author=CIQ (GET Request) -
-   http://13.235.83.227:9090?title=title1&author=CIQ
+   http://13.235.83.227:9090/post?title=title1&author=CIQ
                                               This api is used to filter the json data which has title = title1 and author = CIQ
 
 4. http://localhost:3000?_sort=views&_order=asc (GET Request) -
-   http://13.235.83.227:9090?_sort=views&_order=asc
+   http://13.235.83.227:9090/post?_sort=views&_order=asc
                                               This api is used to sort the json data according to the _sort parameter ascending
 
 5. http://localhost:3000?_sort=views&_order=des (GET Request) -
-   http://13.235.83.227:9090?_sort=views&_order=des
+   http://13.235.83.227:9090/post?_sort=views&_order=des
                                               This api is used to sort the json data according to the _sort parameter descending
 ```                  
 
