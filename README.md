@@ -60,6 +60,7 @@ Build a REST based JSON mock server to easily add, update, delete and access dat
 ## Contact With Me :busts_in_silhouette:
 
 - Phone +91 7302383783
+- Email - rishabhgarg25699@gmail.com
 - Telegram - https://t.me/Rishabhhello
 - Gitter - https://gitter.im/rishabhgarg25699
 
